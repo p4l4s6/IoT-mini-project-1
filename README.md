@@ -8,6 +8,9 @@
       <a href="#server-and-sensor-details">Server and Sensor details</a>
     </li>
     <li>
+      <a href="video-link">Video Link</a>
+    </li>
+    <li>
       <a href="#preparing-the-backend">Preparing the Backend</a>
     </li>
     <li>
@@ -32,7 +35,11 @@ Grenoble IP:
 start range: 2001:660:5307:3101::/64
 ending range: 2001:660:5307:317f::/64
 ```
+<br>
 
+## Video Link
+
+<a href="https://unioulu-my.sharepoint.com/:v:/g/personal/msadeghi23_student_oulu_fi/EdusQCE2X8JJpt6V6e_nbnoBMqiTgkeJRsuZNdQCH-OLjg?e=fLEIfU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D">link</a>
 
 <br>
 
