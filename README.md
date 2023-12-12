@@ -41,7 +41,7 @@ ending range: 2001:660:5307:317f::/64
 
 Step 1: Login to your backend cloud server
 ```
-Ssh user@server
+ssh user@server
 ```
 
 
@@ -54,31 +54,24 @@ https://github.com/eclipse/mosquitto.rsmb.git
 Step 3: Go to src directory and compile
 ```
 cd rsmb/src
-Make
+make
 ```
 
 
 Step 4: Make a new configuration
 ```
-Nano config.conf
+nano config.conf
 ```
-
-
-Uncomment this to show you packets being sent and received
+put the below configuration
 ```
+# Uncomment this to show you packets being sent and received
 trace_output protocol
-```
 
-
-Normal MQTT listener
-```
+# Normal MQTT listener
 listener 1883 INADDR_ANY
 ipv6 true
-```
 
-
-MQTT-SN listener
-```
+# MQTT-SN listener
 listener 1883 INADDR_ANY mqtts
 ipv6 true
 ```
@@ -102,25 +95,25 @@ Leave the terminal open
 
 Step 1: Clone the repository
 ```
-https://github.com/p4l4s6/IoT-mini-project-1.git
+git clone https://github.com/p4l4s6/IoT-mini-project-1.git
 ```
 
 
 Step 2: create a virtual environment
 ```
-Python -m venv venv
+python -m venv venv
 ```
 
 
 Step 3: Install the requirements
 ```
-Pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
 Step 4: Run the frontend code
 ```
-Python frontend.py
+python frontend.py
 ```
 
 
