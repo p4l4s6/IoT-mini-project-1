@@ -143,7 +143,7 @@ ssh USERNAME@grenoble.iot-lab.info
 
 Step 2: Submit an experiment
 ```
-iotlab-experiment submit -n NAME_OF_EXP -d 120-l 2,archi=m3:at86rf231+site=grenoble
+iotlab-experiment submit -n NAME_OF_EXP -d 120 -l 2,archi=m3:at86rf231+site=grenoble
 ```
 
 Wait for the experiment to be started
@@ -188,16 +188,15 @@ sudo ethos_uhcpd.py m3-ID_OF_BORDER_NODE  tap0 2001:660:5307:3101::/64
 Leave terminal open
 
 
-Step 9: get out of the RIOT directory and clone the project directory
+Step 9: open a new terminal and login to IoT lab server again using ssh and clone the repo
 ```
-Cd ..
-Git clone 
+git clone https://github.com/p4l4s6/IoT-mini-project-1.git
 ```
 
 
 Step 10: go to the project directory and set source and compile the firmware
 ```
-Cd <project>
+cd IoT-mini-project-1/iot/
 source /opt/riot.source
 make
 ```
