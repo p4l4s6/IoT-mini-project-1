@@ -5,7 +5,7 @@ APPLICATION = emcute_mqttsn
 BOARD ?= iotlab-m3
 
 # This has to be the absolute path to the RIOT base directory:
-RIOTBASE ?= $(CURDIR)/../RIOT
+RIOTBASE ?= $(CURDIR)/../../RIOT
 
 
 # Include packages that pull up and auto-init the link layer.
