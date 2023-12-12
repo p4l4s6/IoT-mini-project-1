@@ -22,14 +22,16 @@
 <br>
 
 ## Server and Sensor details
-Cloud server IPv4: 16.170.238.248
-Cloud server IPv6: 2a05:d016:eea:c800:ca30:d1a0:b5e6:7e41
-
-
+Cloud server:
+```
+IPv4: 16.170.238.248
+IPv6: 2a05:d016:eea:c800:ca30:d1a0:b5e6:7e41
+```
 Grenoble IP:
-2001:660:5307:3101::/64
-2001:660:5307:317f::/64
-
+```
+start range: 2001:660:5307:3101::/64
+ending range: 2001:660:5307:317f::/64
+```
 
 
 <br>
@@ -131,9 +133,10 @@ Python frontend.py
 
 ## Preparing the IoT Devices
 
-
+```
 Cloud server IPv4: 16.170.238.248
 Cloud server IPv6: 2a05:d016:eea:c800:ca30:d1a0:b5e6:7e41
+```
 
 Step 1: Log in to the IoT lab server using SSH
 ```
