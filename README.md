@@ -5,10 +5,13 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+      <a href="#description">Description</a>
+    </li>
+    <li>
       <a href="#server-and-sensor-details">Server and Sensor details</a>
     </li>
     <li>
-      <a href="video-link">Video Link</a>
+      <a href="#video-link">Video Link</a>
     </li>
     <li>
       <a href="#preparing-the-backend">Preparing the Backend</a>
@@ -23,6 +26,9 @@
 </details>
 
 <br>
+
+## Description
+The goal of this project was to create a software solution enabling the secure and energy-efficient transmission of sensor data from Smart Objects to a cloud backend. Additionally, the collected data will be visualized through the cloud. To accomplish this objective, we developed firmware for Smart Objects using the open source operating system RIOT. The software will undergo evaluation in an IoT testbed (FIT-IoT Testbed), operating on real IoT hardware and an IPv6 connection.
 
 ## Server and Sensor details
 Cloud server:
