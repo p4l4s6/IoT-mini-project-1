@@ -20,7 +20,7 @@
       <a href="#preparing-the-frontend">Preparing the Frontend</a>
     </li>
     <li>
-      <a href="preparing-the-IoT-devices">Preparing the IoT Devices</a>
+      <a href="#preparing-the-iot-devices">Preparing the IoT Devices</a>
     </li>
   </ol>
 </details>
